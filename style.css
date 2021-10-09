@@ -1,0 +1,180 @@
+#main-container {
+  /*box-model*/
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  background-color: rgb(0, 110, 255);
+}
+
+.circle:nth-child(odd) {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+#shape-1 {
+  position: absolute;
+  top: 400px;
+  left: -75px;
+}
+
+#shape-3 {
+  position: absolute;
+  top: 550px;
+  left: 1400px;
+}
+
+.circle:nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.circle:nth-child(4) {
+  position: absolute;
+  top: -20px;
+  left: 1200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+#card-container {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 400px;
+  height: 400px;
+}
+.header {
+  border-style: outset;
+  position: absolute;
+  z-index: -1;
+  top: -120px;
+  left: -50px;
+  background-color: rgb(0, 140, 255);
+  width: 500px;
+  height: 200px;
+}
+.header > .left,
+.right {
+  color: white;
+  padding: 10px;
+  float: left;
+}
+.right {
+  position: absolute;
+  left: 450px;
+}
+.header > .circle {
+  background-color: rgba(0, 153, 255, 0.747) (255, 255, 255, 0.76);
+  opacity: 0.7;
+  position: relative;
+}
+.header > #shape-6 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  top: 50px;
+  left: 5px;
+}
+.header > #shape-7 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  top: -40px;
+  left: 200px;
+}
+.header > #shape-8 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  top: -120px;
+  left: 440px;
+}
+
+.card-header {
+  border-style: outset;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#image {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  left: 150px;
+  top: -60px;
+}
+.card-header > #name,
+#profession,
+.sm,
+p {
+  position: relative;
+  top: -70px;
+  left: 100px;
+  color: grey;
+  line-height: 1;
+  text-indent: 40px;
+}
+.card-header > .sm,
+p {
+  position: relative;
+  left: -10px;
+}
+.item > img {
+  width: 20px;
+  height: 20px;
+}
+.card-footer {
+  position: relative;
+  border-style: outset;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+  line-height: 3;
+  left: 0px;
+  top: 75px;
+}
+span > .fa-chevron-right {
+  position: absolute;
+  left: 350px;
+}
+.container {
+  background-color: white;
+  position: absolute;
+  border-style: outset;
+  width: 500px;
+  height: 550px;
+  left: -50px;
+  top: 75px;
+  z-index: -1;
+}
+.container > h3 {
+  position: relative;
+  left: 50px;
+  top: 130px;
+}
+.footer > hr {
+  width: 80%;
+}
+
+.privecy-settings {
+  text-indent: 70px;
+}
+.footer {
+  position: relative;
+  left: 50px;
+  top: 400px;
+}
